@@ -8,6 +8,7 @@ body
 	color: #EEEEEE;
 	font-family: Helvetica, sans-serif;
 	padding-top: 70px;
+	padding-bottom: 100px;
 	background-color : transparent;
 }
 
@@ -21,8 +22,15 @@ header
 	margin-top: 50px;
 	margin-bottom: 50px;
 	border-radius: 20px;
-
 }
+
+span
+{
+	font-size: 25px;
+	cursor: pointer;
+	color: #ECECEC;
+}
+
 .fixed-bg 
 {
     background-image: url("../img/skyline.jpg");
@@ -42,6 +50,55 @@ header
 	border-width: 15px;
 	padding: 15px;
 	margin-bottom: 20px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #96281B;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    border-radius: 20px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ECECEC;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #F1A9A0;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 36px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 1px;
+    color: #ECECEC;
+    font-size: 25px;
+	cursor: pointer;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 10px;}
+  .sidenav a {font-size: 11px;}
 }
 
 .link

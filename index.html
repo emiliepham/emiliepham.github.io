@@ -2,6 +2,7 @@
   <head>
     <title>Emilie Pham</title>
     <link href="https://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -13,21 +14,31 @@
 <!-- Menu Bar -->
     <nav class="navbar navbar-dark navbar-fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html">
-          Emilie Pham
-        </a>
-        <ul class="nav navbar-nav pull-right">
-          <li class="nav-item active">
-            <a class="nav-link link-color" href="profile.html">
-              About Me
-            </a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link link-color" href="education.html">
-              Education
-            </a>
-          </li>
-        </ul>
+        
+        <div id="main">
+        <span onclick="openNav()">&#9776; Menu</span>
+        </div>
+        
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="profile.html">About Me</a>
+          <a href="education.html">My education</a>
+          <a href="mailto:emilie.pham@kcl.ac.uk">Contact Me</a>
+        </div>
+        <script>
+          function openNav() 
+          {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+          }
+
+          function closeNav() 
+          {
+              document.getElementById("mySidenav").style.width = "0";
+              document.getElementById("main").style.marginLeft= "0";  
+          }
+        </script>
+
       </div>
     </nav>
 
