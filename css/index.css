@@ -35,14 +35,28 @@ header
 	margin: 50px;
 }
 
-.index-link
+.link-color
+{
+	color: #D64541;
+	border: 1px solid #96281B;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+.link-color:hover
+{
+	background-color: #D64541;
+	border-color: #D64541;
+}
+
+.index-pic
 {
 	border-color: #D64541;
 	border: 1px solid #96281B;
 	background-color: #F1A9A0;
 }
 
-.index-link:hover
+.index-pic:hover
 {
 	color: #ECECEC;
 	background-color: #D64541;
