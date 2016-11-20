@@ -89,17 +89,17 @@ strong
 
 .progress.green-progress::-webkit-progress-value
 {
-	background: #4AE371;
+	background: #93EEAA;
 }
 
 .progress.lightgreen-progress::-webkit-progress-value
 {
-	background: #93EEAA;
+	background: #A5FEE3;
 }
 
 .progress.yellow-progress::-webkit-progress-value
 {
-	background: #FFFF84;
+	background: #FFD9B7;
 }
 
 .progress.orange-progress::-webkit-progress-value
@@ -109,7 +109,7 @@ strong
 
 .progress.red-progress::-webkit-progress-value
 {
-	background: #FF4848;
+	background: #FF7373;
 }
 
 

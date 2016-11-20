@@ -4,11 +4,12 @@
     <link href="https://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <meta name="viewport" content="width=device-width, user-scalable=no">
    </head>
 
-  <body>
-
+  <body class="fixed-bg">
+  
 <!-- Menu Bar -->
     <nav class="navbar navbar-dark navbar-fixed-top">
       <div class="container">
@@ -30,27 +31,34 @@
       </div>
     </nav>
 
-    <header>
-      <h1 class="top-padding">Hi, I'm Emilie!</h1>
-      <h2 class="top-padding bottom-padding">
-        What do you want to know?
-      </h2>
-      <div class="col">
-        <p>
-        <a class="link" href="profile.html">
-          <img class="index-pic" src="img/deer.jpg">
-        </a>
-        </p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 col-xs-12">
+            <header class="bottom-padding">
+              <h1 class="top-padding animated fadeInDown">Hi, I'm Emilie!</h1>
+                <h2 class="top-padding bottom-padding animated fadeInUp">
+                  What do you want to know?
+                </h2>
+              <div class="col">
+              <p>
+                <a class="link" href="profile.html">
+                <img class="index-pic" src="img/deer.jpg">
+                </a>
+              </p>
+              </div>
+              <br>
+              <div class="col">
+              <p>
+                <a class="link" href="education.html">
+                <img class="index-pic" src="img/kcl.jpg">
+                </a>
+              </p>
+              </div>
+            </header>
+        </div>
+        <div class="col-md-2"></div>
       </div>
-      <br>
-      <div class="col">
-        <p>
-        <a class="link" href="education.html">
-          <img class="index-pic" src="img/kcl.jpg">
-        </a>
-        </p>
-      </div>
-    </header>
-
+    </div>
   </body>
 </html>
