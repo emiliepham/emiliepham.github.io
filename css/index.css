@@ -1,0 +1,89 @@
+html
+{
+	background-color: #f5f7f9;
+}
+
+body
+{
+	background-image: url("../img/skyline.jpg");
+	background-repeat: no-repeat;
+	background-size: 200%;
+	background-position: center;
+	color: #EEEEEE;
+	font-family: Helvetica, sans-serif;
+	padding-top: 70px;
+}
+
+header
+{
+	text-align: center;
+}
+
+.navbar,
+.navbar:hover
+{
+	background: #F1A9A0;
+	background-color: #F1A9A0;
+	border-color: #96281B;
+	border-width: 15px;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+.link
+{
+	margin: 50px;
+}
+
+.index-link
+{
+	border-color: #D64541;
+	border: 1px solid #96281B;
+	background-color: #F1A9A0;
+}
+
+.index-link:hover
+{
+	color: #ECECEC;
+	background-color: #D64541;
+	border-color: #D64541;
+	text-decoration: none;
+}
+
+.center
+{
+	text-align: center;
+}
+
+.card
+{
+	border-color: #ccc;
+	margin-top: 10px;
+}
+
+.card-title
+{
+	color: #e16879;
+	font-weight: 300;
+	text-align: center;
+}
+
+.top-padding
+{
+	padding-top: 50px;
+}
+
+.bottom-padding
+{
+	padding-bottom: 50px;
+}
+
+.index-pic
+{
+	display: block;
+	width: 100px;
+	margin: auto;
+	border-radius: 50%;
+	padding: 3px;
+	background-color: #F1A9A0;
+}

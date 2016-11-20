@@ -1,0 +1,112 @@
+html
+{
+	background-color: #f5f7f9;
+}
+
+body
+{
+	background: none;
+	color: #69707a;
+	font-family: Arial, sans-serif;
+	padding-top: 70px;
+}
+
+strong
+{
+	color: #222324;
+}
+
+.navbar,
+.navbar:hover
+{
+	background: #F1A9A0;
+	background-color: #F1A9A0;
+	padding: 15px;
+}
+
+.link-color
+{
+	color: #D64541;
+	border: 1px solid #96281B;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+.link-color:hover
+{
+	background-color: #D64541;
+	border-color: #D64541;
+}
+
+.center
+{
+	text-align: center;
+}
+
+.card
+{
+	border-color: #ccc;
+	margin-top: 20px;
+}
+
+.card-title
+{
+	color: #e16879;
+	font-weight: 300;
+	text-align: center;
+}
+
+.profile-picture
+{
+	display: block;
+	max-width: 60%;
+	margin: auto;
+	border-radius: 50%;
+	padding: 3px;
+	background-color: #F1A9A0;
+}
+
+.description
+{
+	background-image: url("../img/description.png");
+	background-repeat: repeat-x;
+	background-size: 150px 150px;
+}
+
+.icon
+{
+	color: #D64541;
+	text-decoration: none;
+	width: 37px;
+}
+
+.icon:hover
+{
+	color: #F1A9A0;
+	text-decoration: none;
+}
+
+.progress.green-progress::-webkit-progress-value
+{
+	background: #27DE55;
+}
+
+.progress.lightgreen-progress::-webkit-progress-value
+{
+	background: #93EEAA;
+}
+
+.progress.yellow-progress::-webkit-progress-value
+{
+	background: #FFFF84;
+}
+
+.progress.orange-progress::-webkit-progress-value
+{
+	background: #FF9797;
+}
+
+.progress.red-progress::-webkit-progress-value
+{
+	background: #FF4848;
+}
