@@ -6,7 +6,7 @@ html
 body
 {
 	color: #EEEEEE;
-	font-family: Helvetica, sans-serif;
+	font-family: Verdana, Geneva, sans-serif;
 	padding-top: 70px;
 	padding-bottom: 100px;
 	background-color : transparent;
@@ -15,10 +15,9 @@ body
 header
 {
 	text-align: center;
-	opacity: 0.8;
-	background-color : #ffffff;
+	background-color : transparent;
 	font-weight: bold;
-	color: #000000;
+	color: #F64747;
 	margin-top: 50px;
 	margin-bottom: 50px;
 	border-radius: 20px;
@@ -33,7 +32,7 @@ span
 
 .fixed-bg 
 {
-    background-image: url("../img/skyline.jpg");
+    background-image: url("../img/paris.jpg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -59,7 +58,7 @@ span
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #96281B;
+    background-color: #BFBFBF;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -91,9 +90,7 @@ span
 #main {
     transition: margin-left .5s;
     padding: 1px;
-    color: #ECECEC;
     font-size: 25px;
-	cursor: pointer;
 }
 
 @media screen and (max-height: 450px) {
