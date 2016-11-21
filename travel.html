@@ -1,0 +1,209 @@
+<html>
+<head>
+	<title>Travels</title>
+	<link href="https://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/travel.css">
+</head>
+<body>
+
+  <!-- Menu Bar -->
+    <nav class="navbar navbar-dark navbar-fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          Emilie Pham
+        </a>
+        <ul class="nav navbar-nav pull-right">
+          <li class="nav-item active">
+            <a class="nav-link link-color" href="profile.html">
+              About Me
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link link-color" href="education.html">
+              Education
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link link-color" href="travel.html">
+              Travel
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link link-color" href="mailto:emilie.pham@kcl.ac.uk">
+              Contact Me
+            </a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container"> 
+          <div class="row">
+        
+            <!-- Left Hand Column -->
+            <!-- takes 4 units of column -->
+            <div class="col-md-4">
+
+             <!-- Profile -->
+             <div class="card description">
+               <div class="card-block">
+                 <img class="img-circle profile-picture" src="img/profilepic.jpg">
+                  <h4 class="card-title center">
+                    Emilie Pham
+                  </h4>
+                  <p class="card-text">
+                    Mathematics student at King's College London.
+                 </p>
+               </div>
+               <div class="card-footer center">
+                <div class="row">
+                 <a class="fa fa-linkedin-square fa-2x icon" href="https://www.linkedin.com/in/emilie-pham-b5a1a0b5" target="_blank">
+                  </a>
+
+                 <a class="fa fa-facebook-square fa-2x icon" href="https://www.facebook.com/emiliepham95" target="_blank">
+                 </a>
+
+                 <a class="fa fa-envelope-square fa-2x icon" href="mailto:emilie.pham@kcl.ac.uk">
+                 </a>
+
+                 <a class="fa fa-soundcloud fa-2x icon" href="https://soundcloud.com/emiliepham" target="_blank">
+                  </a>
+                  <a class="fa fa-2x fa-instagram icon" href="https://www.instagram.com/phamemilie/" target="_blank">
+                  </a>
+                </div>
+               </div>
+              </div>
+
+              <!-- Information -->
+             <div class="card">
+                <div class="card-block">
+                  <h4 class="card-title">
+                    Information
+                  </h4>
+                 <p>
+                   <i class="fa fa-globe"></i>
+                    From Paris, France
+                  </p>
+                 <p>
+                   <i class="fa fa-map-marker"></i>
+                    Lives in Notting Hill, London
+                 </p>
+               </div>
+              </div>
+
+           	  <!-- Languages -->
+              <div class="card">
+                <div class="card-block">
+                  <h4 class="card-title">
+                    Languages
+                  </h4>
+                    <div class="row-md-3 textright">
+                      <div class="col-xs-5">
+                        <p>French</p>
+                      </div>
+                    	<div class="col-xs-7">
+                      	<p>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                      	</p>
+                    	</div>
+                    </div>
+                    <div class="row-md-3 textright">
+                      <div class="col-xs-5">
+                        <p>English</p>
+                      </div>
+                    	<div class="col-xs-7">
+                      	<p>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                      	</p>
+                    	</div>
+                    </div>
+                    <div class="row-md-3 textright">
+                      <div class="col-xs-5">
+                        <p>Vietnamese</p>
+                      </div>
+                    	<div class="col-xs-7">
+                      	<p>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star-o"></span>
+                        <span class="fa fa-star-o"></span>
+                      	</p>
+                      </div>
+                    </div>
+                    <div class="row-md-3 textright">
+                      <div class="col-xs-5">
+                        <p>Spanish</p>
+                      </div>
+                    	<div class="col-xs-7">
+                     	 <p>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star-o"></span>
+                        <span class="fa fa-star-o"></span>
+                        <span class="fa fa-star-o"></span>
+                      	</p>
+                      </div>
+                    </div>
+                 </div>
+                </div>
+			</div>
+
+            <!-- Middle Column -->
+            <div class="col-md-8">
+              <div class="card">
+                <div class="card-block">
+                  <h4 class="card-title animated fadeInDown">
+                    Places I've been to
+                  </h4>
+                  
+                  <div  class="center" id="map" style="width:100%;height:500px"> 
+
+					<iframe src="https://www.google.com/maps/d/embed?mid=1_WtWUkixfgAy8VtZyNLB7kpWjnQ" width="640" height="480"></iframe></div> 
+
+
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-block">
+                  <h4 class="card-title">
+                    Interests
+                  </h4>
+                  <p>
+                    <ul>
+                      <li><strong>Baking</strong></li>
+                      <small>Since I was young, but I got really into it when I was about 15 years old. I've tried everything from apple crumble to chocolate macarons!</small>
+
+                      <li><strong>Cooking</strong></li>
+                      <small>Since I was allowed to touch the stove! My mum is an amazing cook especially in Vietnamese cuisine (both my parents are from Vietnam). So I have both French and Vietnamese influences in the dishes I make, which I find amazing.</small>
+
+                      <li><strong>Piano</strong></li>
+                      <small>I have actively practiced the piano from the age of 8 until 18. I played various styles, from classic to more modern pieces, depending on how I felt. But I mainly loved Chopin!</small>
+
+                      <li><strong>Travelling</strong></li>
+                      <small>I have the chance to have family spreaded all over the world, so I have visited amazing countries from Australia to Vietnam but also the US as well as other European countries such as: Spain, Germany, Switzerland, Italy, Crete, ...<br>I love trying out new food and spices, you can probably tell food is a big part of my life!</small>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+            </div>
+
+          </div>
+        </div>
+
+</body>
+</html>
