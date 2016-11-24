@@ -85,3 +85,11 @@ strong
 	color: #F1A9A0;
 	text-decoration: none;
 }
+
+.slidetext
+{
+	color: black;
+	background-color: #ECECEC;
+	border-radius: 20px;
+	opacity: 0.5;
+}
