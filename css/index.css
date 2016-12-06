@@ -1,33 +1,33 @@
 html
 {
-	background-color: #f5f7f9;
+  background-color: #f5f7f9;
 }
 
 body
 {
-	color: #EEEEEE;
-	font-family: Verdana, Geneva, sans-serif;
-	padding-top: 70px;
-	padding-bottom: 100px;
-	background-color : transparent;
+  color: #EEEEEE;
+  font-family: Verdana, Geneva, sans-serif;
+  padding-top: 70px;
+  padding-bottom: 100px;
+  background-color : transparent;
 }
 
 header
 {
-	text-align: center;
-	background-color : transparent;
-	font-weight: bold;
-	color: #F64747;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	border-radius: 20px;
+  text-align: center;
+  background-color : transparent;
+  font-weight: bold;
+  color: #F64747;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 20px;
 }
 
 span
 {
-	font-size: 25px;
-	cursor: pointer;
-	color: #ECECEC;
+  font-size: 25px;
+  cursor: pointer;
+  color: #ECECEC;
 }
 
 .fixed-bg 
@@ -43,12 +43,12 @@ span
 .navbar,
 .navbar:hover
 {
-	background: #F1A9A0;
-	background-color: #F1A9A0;
-	border-color: #96281B;
-	border-width: 15px;
-	padding: 15px;
-	margin-bottom: 20px;
+  background: #F1A9A0;
+  background-color: #F1A9A0;
+  border-color: #96281B;
+  border-width: 15px;
+  padding: 15px;
+  margin-bottom: 20px;
 }
 
 .sidenav {
@@ -62,7 +62,8 @@ span
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-    border-radius: 20px;
+    margin-top: 55px;
+    border-radius: 0px;
 }
 
 .sidenav a {
@@ -88,9 +89,10 @@ span
 }
 
 #main {
-    transition: margin-left .5s;
+    transition: margin-left 0.5s;
     padding: 1px;
     font-size: 25px;
+    left: 50%;
 }
 
 @media screen and (max-height: 450px) {
@@ -100,72 +102,72 @@ span
 
 .link
 {
-	margin: 50px;
+  margin: 50px;
 }
 
 .link-color
 {
-	color: #D64541;
-	border: 1px solid #96281B;
-	padding: 10px;
-	border-radius: 20px;
+  color: #D64541;
+  border: 1px solid #96281B;
+  padding: 10px;
+  border-radius: 20px;
 }
 
 .link-color:hover
 {
-	background-color: #D64541;
-	border-color: #D64541;
+  background-color: #D64541;
+  border-color: #D64541;
 }
 
 .index-pic
 {
-	border-color: #D64541;
-	border: 1px solid #96281B;
-	background-color: #F1A9A0;
+  border-color: #D64541;
+  border: 1px solid #96281B;
+  background-color: #F1A9A0;
 }
 
 .index-pic:hover
 {
-	color: #ECECEC;
-	background-color: #D64541;
-	border-color: #D64541;
-	text-decoration: none;
+  color: #ECECEC;
+  background-color: #D64541;
+  border-color: #D64541;
+  text-decoration: none;
 }
 
 .center
 {
-	text-align: center;
+  text-align: center;
 }
 
 .card
 {
-	border-color: #ccc;
-	margin-top: 10px;
+  border-color: #ccc;
+  margin-top: 10px;
 }
 
 .card-title
 {
-	color: #e16879;
-	font-weight: 300;
-	text-align: center;
+  color: #e16879;
+  font-weight: 300;
+  text-align: center;
 }
 
 .top-padding
 {
-	padding-top: 50px;
+  padding-top: 50px;
 }
 
 .bottom-padding
 {
-	padding-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .index-pic
 {
-	display: block;
-	width: 100px;
-	margin: auto;
-	border-radius: 50%;
-	padding: 3px;
-	background-color: #F1A9A0;
+  display: block;
+  width: 100px;
+  margin: auto;
+  border-radius: 50%;
+  padding: 3px;
+  background-color: #F1A9A0;
 }

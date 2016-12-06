@@ -11,41 +11,21 @@
 
   <body class="fixed-bg">
   
-<!-- Menu side Bar -->
     <nav class="navbar navbar-dark navbar-fixed-top">
-      <div class="container">
-        
-        <div id="mySidenav" class="sidenav">
+        <div>
+        <span onclick="openNav()">&#9776; Menu</span>
+    </div>
+
+    </nav>
+
+    <div class="container" id="main">
+          <div id="mySidenav" class="sidenav">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
           <a href="profile.html">About Me</a>
           <a href="education.html">My education</a>
           <a href="travel.html">My travels</a>
           <a href="mailto:emilie.pham@kcl.ac.uk">Contact Me</a>
         </div>
-
-
-        <div id="main">
-        <span onclick="openNav()">&#9776; Menu</span>
-        </div>
-
-        <script>
-          function openNav() 
-          {
-            document.getElementById("mySidenav").style.width = "250px";
-            document.getElementById("main").style.marginLeft = "250px";
-          }
-
-          function closeNav() 
-          {
-              document.getElementById("mySidenav").style.width = "0";
-              document.getElementById("main").style.marginLeft= "0";  
-          }
-        </script>
-
-      </div>
-    </nav>
-
-    <div class="container">
       <div class="row">
         <div class="col-md-2"></div>
         <div class="col-md-8 col-xs-12">
@@ -82,5 +62,18 @@
         <div class="col-md-2"></div>
       </div>
     </div>
+  <script>
+    function openNav() 
+    {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    function closeNav() 
+    {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "auto";  
+    }
+  </script>
   </body>
 </html>
