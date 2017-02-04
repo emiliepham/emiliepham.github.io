@@ -70,6 +70,11 @@ strong
 	text-align: center;
 }
 
+.card-footer
+{
+	text-align: center;
+}
+
 .profile-picture
 {
 	display: block;
